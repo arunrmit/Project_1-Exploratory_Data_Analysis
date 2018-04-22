@@ -1,5 +1,7 @@
 The objective of this project is to understand the Fine particulate matter in the US over the time frame. For this exploratory data analysis Base plot and GGPLOT2 are used in order to understand the behaviour of this pollutant. 
 The data for this project is available in this site (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"), by using the following R code the data has been downloaded and unzipped.
+
+
 urlp <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
 download.file(url = urlp, destfile = "ProjectData.zip")
 unzip("ProjectData.zip")	
