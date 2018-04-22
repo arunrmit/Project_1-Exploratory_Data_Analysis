@@ -1,0 +1,1 @@
+The objective of this course project is to understand the Fine particulate matter in the US over the time frame. For this exploratory data analysis Base plot and GGPLOT2 are used in order to understand the behaviour of this pollutant. 
