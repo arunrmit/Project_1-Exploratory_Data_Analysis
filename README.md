@@ -9,9 +9,9 @@ urlp <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip" <br
 download.file(url = urlp, destfile = "ProjectData.zip") <br />
 unzip("ProjectData.zip")<br />
 
-The files are in RDS file format, by using readRDS the data has been read and stored under the following variable.
-NEI <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
+The files are in RDS file format, by using readRDS the data has been read and stored under the following variable.<br />
+NEI <- readRDS("summarySCC_PM25.rds") <br />
+SCC <- readRDS("Source_Classification_Code.rds") <br />
 
 
 --------------------------------------------------------------------------------------------------------------------------------
