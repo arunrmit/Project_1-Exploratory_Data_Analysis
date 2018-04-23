@@ -5,9 +5,9 @@ The objective of this project is to understand the Fine particulate matter in th
 The data for this project is available in this site (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"), by using the following R code the data has been downloaded and unzipped.
 
 
-urlp <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
-download.file(url = urlp, destfile = "ProjectData.zip")
-unzip("ProjectData.zip")	
+urlp <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip" <br />
+download.file(url = urlp, destfile = "ProjectData.zip") <br />
+unzip("ProjectData.zip")<br />
 
 The files are in RDS file format, by using readRDS the data has been read and stored under the following variable.
 NEI <- readRDS("summarySCC_PM25.rds")
