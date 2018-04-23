@@ -1,7 +1,7 @@
 ### Exploratory Data Analysis -- Base Plot & GGPLOT
 
 
-The objective of this project is to understand the Fine particulate matter in the US over the time frame. For this exploratory data analysis Base plot and GGPLOT2 are used in order to understand the behaviour of this pollutant. 
+The objective of this project is to understand the Fine particulate matter in the US over the time frame. For this exploratory data analysis Base plot and GGPLOT2 are used in order to understand the behaviour of the pollutant emitted by different sources. 
 The data for this project is available in this site (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"), by using the following R code the data has been downloaded and unzipped.
 
 
@@ -9,7 +9,7 @@ urlp <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip" <br
 download.file(url = urlp, destfile = "ProjectData.zip") <br />
 unzip("ProjectData.zip")<br />
 
-The files are in RDS file format, by using readRDS the data has been read and stored under the following variable.<br />
+The files are in RDS file format, by using readRDS the data has been read and stored under the following variables.<br />
 NEI <- readRDS("summarySCC_PM25.rds") <br />
 SCC <- readRDS("Source_Classification_Code.rds") <br />
 
